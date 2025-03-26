@@ -24,5 +24,25 @@
             </ul>
         </nav>
     </header>
+    <main>
+        <section class="contato">
+            <h1>Me contate</h1>
+            <form action="submit_form.php" method="POST">
+                <label for="nome">Nome:</label>
+                <input type="text" name="nome" id="nome" required>
+
+                <label for="email">Email:</label>
+                <input type="text" name="email" id="email" required>
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea name="mensagem" id="mensagem" rows="5" required></textarea>
+
+                <button type="submit">Enviar mensagem</button>
+            </form>
+        </section>
+        <footer>
+            <p>&copy; todos os direitos reservados</p>
+        </footer>
+    </main>
 </body>
 </html>
